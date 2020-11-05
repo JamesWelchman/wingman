@@ -34,7 +34,7 @@ also be set with an environment variable.
 ```bash
 $ export WINGMAN_USER_KEY=bd6343df2aaf9eb541bee5386787245c7e2a3dd63a02f8029bb0b91ee2b5ef00
 $ export WINGMAN_ENC_DIR=/home/bob/.wingman
-wingman add /home/bob/file.txt
+$ wingman add /home/bob/file.txt
 ```
 
 The above command will create an encrypted backup of file.txt to the
@@ -51,6 +51,7 @@ This section assumes WINGMAN_ENC_DIR and WINGMAN_SECRET_KEY are
 set in the environment.
 
 Wingman has four commands:
+
 	* wingman add
 	* wingman ls
 	* wingman cat
